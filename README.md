@@ -13,7 +13,7 @@ Let your php output in command line colorful.
 `composer require "chency147/cli-message"`
 
 ### 使用示例
-```$PHP
+```PHP
 $style = new Style();
 $style->setForegroundColor(Style::COLOR_GREEN) // 定义颜色为绿色
       ->setBold() // 设置加粗
