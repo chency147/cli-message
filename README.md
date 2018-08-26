@@ -30,6 +30,8 @@ $anotherStyle = new Style();
 $anotherStyle->setForegroundColor(Style::COLOR_RED);
 echo $message->getContentWithStyle($anotherStyle, PHP_EOL);
 ```
+### 颜色说明
+- 颜色由0到255的整数来控制，可参照效果预览中的颜色表来选择自己所需的颜色；
 
 ## 协议
 本项目使用MIT协议。
