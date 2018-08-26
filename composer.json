@@ -1,0 +1,20 @@
+{
+  "name": "chency147/cli-message",
+  "description": "A tool to make the output of command line colorful.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Chency147\\CliMessage\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rick Chen",
+      "email": "313797922@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  }
+}
