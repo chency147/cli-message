@@ -160,7 +160,7 @@ class Message
      * @param string $content
      * @param string $suffix
      */
-    public static function ERROR($content, $suffix = PHP_EOL)
+    public static function error($content, $suffix = PHP_EOL)
     {
         if (!isset(self::$defaultMessage['error']) || !self::$defaultMessage['error'] instanceof self) {
             $message = new self();
