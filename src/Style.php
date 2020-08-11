@@ -303,4 +303,5 @@ class Style
     public function __clone()
     {
     }
+    123123123
 }
